@@ -1,0 +1,32 @@
+{
+  "name": "hi-map",
+  "version": "1.0.1",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "unplugin-auto-import": "^19.2.0",
+    "unplugin-element-plus": "^0.9.1",
+    "unplugin-vue-components": "^28.5.0",
+    "vite": "^4.5.14",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-dts": "^3.9.1",
+    "vue-tsc": "^2.2.10"
+  },
+  "peerDependencies": {
+    "@vue/runtime-core": "^3.5.13",
+    "vue": "^3.5.13",
+    "hi-components-pro": "^1.0.17",
+    "hi-http": "^1.0.10",
+    "hi-utils-pro": "^1.0.8"
+  },
+  "packageManager": "pnpm@10.7.1"
+}
